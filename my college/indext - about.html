@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css""
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="photo/banner.png" alt=""></a>
+        <div class="nav-links" id="navl-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+
+
+            <ul>
+                <li><a href="indext.html">Home</a></li>
+                <li><a href="indext - about.html">About</a></li>
+                <li><a href="indext - about.html">Course</a></li>
+                <li><a href="indext - contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+
+
+    </nav>
+    <h1>ABOUT US</h1>
+</section>
+<!------------ about us content --------->
+
+</section class="about us">
+<div class="row">
+    <div class="about-col">
+        <h1>EDUCATION IS THE MOST POWERFULL WEAPON WHICH YOU CAN USE TO CHANGE THE WROLD.</h1>
+        <p>Being self-assured and confident in one’s abilities is crucial <br>
+            to healthy self-esteem. People who don’t have much confidence are<br>
+             more likely to be taken advantage of and struggle with anxiety. In a school setting, kids get 
+             the opportunity to build their confidence early on. As they learn to read, write, solve
+              math problems,
+             and more, their confidence in their abilities increases. A teacher plays a very 
+             important role in this
+        . It’s their job to celebrate a student’s progress
+              as well as their hard work, as many struggle with certain subjects.</p>
+              <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="photo/about.png">
+    </div>
+</div>
+
+<section>
+<!------ Footer -------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <P>The roots of education are bitter, but the fruit is sw<i class="fa fa-star"></i>eet.<br>
+        WE PROVIDE QUALITY EDUCATION <br> Established in 2051 </P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+
+</section>
+
+<!-------javaScript for Toggle Menu----->
+
+<script>
+    var navlinks= document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function HIDEmenu(){
+        navLinks.style.right="200PX";
+    }
+</script>
+</body>
+</html>
+

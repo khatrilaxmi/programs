@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css""
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="photo/banner.png" alt=""></a>
+        <div class="nav-links" id="navl-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+
+
+            <ul>
+                <li><a href="indext.html">Home</a></li>
+                <li><a href="indext - about.html">About</a></li>
+                <li><a href="indext - about.html">Course</a></li>
+                <li><a href="indext - contact.html">Contact</a></l
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+   <h1>contact Us</h1>
+    </section>
+    <!-------------  us content ---------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14174.1721462147!2d87.12355613153625!3d27.358751276999154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e8c5c2d554a42b%3A0xaeec2cfbbfde417!2sDingla%2C%20Shadananda%2057000!5e0!3m2!1sen!2snp!4v1688642085082!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Dingla Bazzar</h5>
+                    <p>Bhojpur, Dingla</p>
+                </span>
+            </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5> +1 098765432</h5>
+                <p>Sunday to Friday,10am to 5pm</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+            <h5>info@newsummitenglishboarding.com</h5>
+            <p>Email us your query</p>
+            </span>
+  </div>
+   </div>
+ <div class="contact-col">
+    <form action="">
+       <input type="text" placeholder="Enter your name"required>
+       <input type="email" placeholder="Enter your email address"required>
+       <input type="text" placeholder="Enter your name"required>
+      <textarea rows="8"placeholder="massage"required></textarea>
+      <button type="submit"class="hero-btn red-btn">send massage</button>
+  </form>
+        </div>
+        </div>
+
+    </section>
+  
+    
+
+<!------ Footer -------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <P>The roots of education are bitter, but the fruit is sw<i class="fa fa-star"></i>eet.<br>
+        WE PROVIDE QUALITY EDUCATION <br> Established in 2051 </P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+
+</section>
+
+<!-------javaScript for Toggle Menu----->
+
+<script>
+    var navlinks= document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function HIDEmenu(){
+        navLinks.style.right="200PX";
+    }
+</script>
+</body>
+</html>
+
